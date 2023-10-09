@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply block inline-block py-1 text-black hover:text-primary cursor-pointer mr-4;
+  }
+  .error {
+    @apply text-red-500;
+  }
+}
+@layer base {
+  p {
+    @apply mb-3;
+  }
+}
