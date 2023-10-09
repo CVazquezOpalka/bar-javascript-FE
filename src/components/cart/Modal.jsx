@@ -8,7 +8,7 @@ const Backdrop = () => {
 
 const CardModal = (props) => {
   return (
-    <div className="fixed mx-auto inset-x-0 top-32 bg-white pt-6 px-10 pb-2 drop-shadow-lg w-6/12 ">
+    <div className="fixed mx-auto inset-x-0 top-12 bg-white pt-6 px-10 pb-2 drop-shadow-lg w-6/12 ">
       {props.children}
     </div>
   );
